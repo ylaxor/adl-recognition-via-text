@@ -1,0 +1,221 @@
+[sensors]
+sorted_names = [
+    "D001",
+    "D002",
+    "D004",
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M008",
+    "M009",
+    "M010",
+    "M011",
+    "M012",
+    "M013",
+    "M014",
+    "M015",
+    "M016",
+    "M017",
+    "M018",
+    "M019",
+    "M020",
+    "M021",
+    "M022",
+    "M023",
+    "M024",
+    "M025",
+    "M026",
+    "M027",
+    "M028",
+    "M029",
+    "M030",
+    "M031",
+]
+
+[activities]
+sorted_names = [
+    "BED_TO_TOILET",
+    "EATING",
+    "ENTER_HOME",
+    "HOUSEKEEPING",
+    "LEAVE_HOME",
+    "MEAL_PREPARATION",
+    "IDLE",
+    "RELAX",
+    "RESPIRATE",
+    "SLEEPING",
+    "WASH_DISHES",
+    "WORK",
+]
+
+[sensors.metadata.M003]
+type = "motion"
+room = "bedroom"
+object = "bed"
+
+[sensors.metadata.M002]
+type = "motion"
+room = "bedroom"
+object = "bed"
+
+[sensors.metadata.M007]
+type = "motion"
+room = "bedroom"
+object = "bed"
+
+[sensors.metadata.M005]
+type = "motion"
+room = "bedroom"
+object = "cupboard"
+
+[sensors.metadata.M004]
+type = "motion"
+room = "bathroom"
+object = "doorway"
+
+[sensors.metadata.M006]
+type = "motion"
+room = "bedroom"
+object = "doorway"
+
+[sensors.metadata.M008]
+type = "motion"
+room = "bedroom"
+object = "doorway"
+
+[sensors.metadata.M020]
+
+[sensors.metadata.M010]
+type = "motion"
+room = "livingroom"
+object = "sofa"
+
+[sensors.metadata.M011]
+type = "motion"
+room = "entrance"
+object = "doorway"
+
+[sensors.metadata.M012]
+type = "motion"
+room = "livingroom"
+object = "sofa"
+
+[sensors.metadata.M013]
+
+[sensors.metadata.M014]
+type = "motion"
+room = "diningroom"
+object = "table"
+
+[sensors.metadata.M009]
+type = "motion"
+room = "livingroom"
+object = "sofa"
+
+[sensors.metadata.M018]
+
+[sensors.metadata.M019]
+
+
+[sensors.metadata.M015]
+type = "motion"
+room = "kitchen"
+object = "table"
+
+[sensors.metadata.M016]
+type = "motion"
+room = "kitchen"
+object = "door"
+
+
+[sensors.metadata.M017]
+
+[sensors.metadata.M021]
+
+[sensors.metadata.M022]
+
+[sensors.metadata.M023]
+type = "motion"
+room = "bedroom"
+object = "doorway"
+
+[sensors.metadata.M001]
+type = "motion"
+room = "bedroom"
+object = "cupboard"
+
+[sensors.metadata.M024]
+
+
+[sensors.metadata.D002]
+type = "contact"
+object = "door"
+room = "kitchen"
+
+[sensors.metadata.M031]
+type = "motion"
+room = "bathroom"
+object = "door"
+
+[sensors.metadata.D004]
+type = "contact"
+room = "garage"
+object = "door"
+
+[sensors.metadata.M030]
+
+
+[sensors.metadata.M029]
+type = "motion"
+room = "bathroom"
+object = "doorway"
+
+[sensors.metadata.M028]
+type = "motion"
+room = "workspace"
+object = "doorway"
+
+[sensors.metadata.D001]
+type = "contact"
+room = "entrance"
+object = "door"
+
+[sensors.metadata.M026]
+type = "motion"
+room = "workspace"
+object = "desk"
+
+[sensors.metadata.M027]
+
+[sensors.metadata.M025]
+type = "motion"
+room = "workspace"
+object = "sofa"
+
+[activities.metadata.SLEEPING]
+
+[activities.metadata.IDLE]
+
+[activities.metadata.BED_TO_TOILET]
+
+[activities.metadata.MEAL_PREPARATION]
+
+[activities.metadata.RELAX]
+
+[activities.metadata.HOUSEKEEPING]
+
+[activities.metadata.EATING]
+
+[activities.metadata.WASH_DISHES]
+
+[activities.metadata.LEAVE_HOME]
+
+[activities.metadata.ENTER_HOME]
+
+[activities.metadata.WORK]
+
+[activities.metadata.RESPIRATE]

@@ -1,0 +1,114 @@
+[sensors]
+sorted_names = [
+    "BASIN_PIR_BATHROOM",
+    "BED_PRESSURE_BEDROOM",
+    "CUPBOARD_MAGNETIC_KITCHEN",
+    "DOOR_PIR_BEDROOM",
+    "DOOR_PIR_KITCHEN",
+    "DOOR_PIR_LIVING",
+    "FRIDGE_MAGNETIC_KITCHEN",
+    "MAINDOOR_MAGNETIC_ENTRANCE",
+    "MICROWAVE_ELECTRIC_KITCHEN",
+    "SEAT_PRESSURE_LIVING",
+    "SHOWER_PIR_BATHROOM",
+    "TOILET_FLUSH_BATHROOM",
+]
+
+[activities]
+sorted_names = [
+    "BREAKFAST",
+    "DINNER",
+    "GROOMING",
+    "LEAVING",
+    "LUNCH",
+    "IDLE",
+    "SHOWERING",
+    "SLEEPING",
+    "SNACK",
+    "SPARE_TIME",
+    "TOILETING",
+]
+
+[sensors.metadata.SEAT_PRESSURE_LIVING]
+type = "pressure"
+room = "livingroom"
+object = "sofa"
+
+[sensors.metadata.DOOR_PIR_LIVING]
+type = "motion"
+room = "livingroom"
+object = "door"
+
+[sensors.metadata.DOOR_PIR_KITCHEN]
+type = "motion"
+room = "kitchen"
+object = "door"
+
+[sensors.metadata.DOOR_PIR_BEDROOM]
+type = "motion"
+room = "bedroom"
+object = "door"
+
+[sensors.metadata.BASIN_PIR_BATHROOM]
+type = "motion"
+room = "bathroom"
+object = "sink"
+
+[sensors.metadata.TOILET_FLUSH_BATHROOM]
+type = "flush"
+room = "bathroom"
+object = "wc"
+
+[sensors.metadata.BED_PRESSURE_BEDROOM]
+type = "pressure"
+room = "bedroom"
+object = "bed"
+
+[sensors.metadata.FRIDGE_MAGNETIC_KITCHEN]
+type = "contact"
+room = "kitchen"
+object = "fridge"
+
+[sensors.metadata.MICROWAVE_ELECTRIC_KITCHEN]
+type = "electric"
+room = "kitchen"
+object = "microwave"
+
+
+[sensors.metadata.SHOWER_PIR_BATHROOM]
+type = "motion"
+room = "bathroom"
+object = "shower"
+
+[sensors.metadata.CUPBOARD_MAGNETIC_KITCHEN]
+type = "contact"
+room = "kitchen"
+object = "cupboard"
+
+[sensors.metadata.MAINDOOR_MAGNETIC_ENTRANCE]
+type = "contact"
+room = "entrance"
+object = "door"
+
+[activities.metadata.SPARE_TIME]
+
+
+[activities.metadata.IDLE]
+
+[activities.metadata.GROOMING]
+
+[activities.metadata.TOILETING]
+
+[activities.metadata.SLEEPING]
+
+[activities.metadata.BREAKFAST]
+
+[activities.metadata.SHOWERING]
+
+[activities.metadata.SNACK]
+
+[activities.metadata.LUNCH]
+
+[activities.metadata.LEAVING]
+
+[activities.metadata.DINNER]

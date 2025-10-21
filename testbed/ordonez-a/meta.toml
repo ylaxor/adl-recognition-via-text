@@ -1,0 +1,109 @@
+[sensors]
+sorted_names = [
+    "BASIN_PIR_BATHROOM",
+    "BED_PRESSURE_BEDROOM",
+    "CABINET_MAGNETIC_BATHROOM",
+    "COOKTOP_PIR_KITCHEN",
+    "CUPBOARD_MAGNETIC_KITCHEN",
+    "FRIDGE_MAGNETIC_KITCHEN",
+    "MAINDOOR_MAGNETIC_ENTRANCE",
+    "MICROWAVE_ELECTRIC_KITCHEN",
+    "SEAT_PRESSURE_LIVING",
+    "SHOWER_PIR_BATHROOM",
+    "TOASTER_ELECTRIC_KITCHEN",
+    "TOILET_FLUSH_BATHROOM",
+]
+
+[activities]
+sorted_names = [
+    "BREAKFAST",
+    "GROOMING",
+    "LEAVING",
+    "LUNCH",
+    "IDLE",
+    "SHOWERING",
+    "SLEEPING",
+    "SNACK",
+    "SPARE_TIME",
+    "TOILETING",
+]
+
+[sensors.metadata.BED_PRESSURE_BEDROOM]
+type = "pressure"
+room = "bedroom"
+object = "bed"
+
+[sensors.metadata.CABINET_MAGNETIC_BATHROOM]
+type = "contact"
+room = "bathroom"
+object = "cabinet"
+
+[sensors.metadata.BASIN_PIR_BATHROOM]
+type = "motion"
+room = "bathroom"
+object = "sink"
+
+[sensors.metadata.TOILET_FLUSH_BATHROOM]
+type = "flush"
+room = "bathroom"
+object = "wc"
+
+[sensors.metadata.SHOWER_PIR_BATHROOM]
+type = "motion"
+room = "bathroom"
+object = "shower"
+
+[sensors.metadata.FRIDGE_MAGNETIC_KITCHEN]
+type = "contact"
+room = "kitchen"
+object = "fridge"
+
+[sensors.metadata.CUPBOARD_MAGNETIC_KITCHEN]
+type = "contact"
+room = "kitchen"
+object = "cupboard"
+
+[sensors.metadata.TOASTER_ELECTRIC_KITCHEN]
+type = "electric"
+room = "kitchen"
+object = "toaster"
+
+[sensors.metadata.COOKTOP_PIR_KITCHEN]
+type = "motion"
+room = "kitchen"
+object = "cooktop"
+
+[sensors.metadata.MICROWAVE_ELECTRIC_KITCHEN]
+type = "electric"
+room = "kitchen"
+object = "microwave"
+
+[sensors.metadata.SEAT_PRESSURE_LIVING]
+type = "pressure"
+room = "livingroom"
+object = "sofa"
+
+[sensors.metadata.MAINDOOR_MAGNETIC_ENTRANCE]
+type = "contact"
+room = "entrance"
+object = "door"
+
+[activities.metadata.SLEEPING]
+
+[activities.metadata.IDLE]
+
+[activities.metadata.TOILETING]
+
+[activities.metadata.SHOWERING]
+
+[activities.metadata.BREAKFAST]
+
+[activities.metadata.GROOMING]
+
+[activities.metadata.SPARE_TIME]
+
+[activities.metadata.LEAVING]
+
+[activities.metadata.LUNCH]
+
+[activities.metadata.SNACK]

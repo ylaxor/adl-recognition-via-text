@@ -1,0 +1,195 @@
+[activities]
+"TestBed.ORDA" = [
+    "IDLE",
+    "LUNCH",
+    "SLEEPING",
+    "SHOWERING",
+    "GROOMING",
+    "SNACK",
+    "SPARE_TIME",
+    "TOILETING",
+    "BREAKFAST",
+    "LEAVING",
+]
+"TestBed.ORDB" = [
+    "IDLE",
+    "DINNER",
+    "LUNCH",
+    "SLEEPING",
+    "SHOWERING",
+    "GROOMING",
+    "SNACK",
+    "SPARE_TIME",
+    "TOILETING",
+    "BREAKFAST",
+    "LEAVING",
+]
+"TestBed.CASA" = [
+    "BED_TO_TOILET",
+    "RELAX",
+    "ENTER_HOME",
+    "LEAVE_HOME",
+    "HOUSEKEEPING",
+    "MEAL_PREPARATION",
+    "EATING",
+    "WASH_DISHES",
+    "SLEEPING",
+    "WORK",
+    "IDLE",
+    "RESPIRATE",
+]
+"TestBed.CASM" = [
+    "BED_TO_TOILET",
+    "MASTER_BATHROOM",
+    "SLEEP",
+    "READ",
+    "KITCHEN_ACTIVITY",
+    "WATCH_TV",
+    "CHORES",
+    "DESK_ACTIVITY",
+    "LEAVE_HOME",
+    "DINING_RM_ACTIVITY",
+    "GUEST_BATHROOM",
+    "MASTER_BEDROOM_ACTIVITY",
+    "MEDITATE",
+    "MORNING_MEDS",
+    "IDLE",
+    "EVE_MEDS",
+]
+
+
+[sensors]
+"TestBed.ORDA" = [
+    "BASIN_PIR_BATHROOM",
+    "BED_PRESSURE_BEDROOM",
+    "CABINET_MAGNETIC_BATHROOM",
+    "COOKTOP_PIR_KITCHEN",
+    "CUPBOARD_MAGNETIC_KITCHEN",
+    "FRIDGE_MAGNETIC_KITCHEN",
+    "MAINDOOR_MAGNETIC_ENTRANCE",
+    "MICROWAVE_ELECTRIC_KITCHEN",
+    "SEAT_PRESSURE_LIVING",
+    "SHOWER_PIR_BATHROOM",
+    "TOASTER_ELECTRIC_KITCHEN",
+    "TOILET_FLUSH_BATHROOM",
+]
+"TestBed.ORDB" = [
+    "BASIN_PIR_BATHROOM",
+    "BED_PRESSURE_BEDROOM",
+    "CUPBOARD_MAGNETIC_KITCHEN",
+    "DOOR_PIR_BEDROOM",
+    "DOOR_PIR_KITCHEN",
+    "DOOR_PIR_LIVING",
+    "FRIDGE_MAGNETIC_KITCHEN",
+    "MAINDOOR_MAGNETIC_ENTRANCE",
+    "MICROWAVE_ELECTRIC_KITCHEN",
+    "SEAT_PRESSURE_LIVING",
+    "SHOWER_PIR_BATHROOM",
+    "TOILET_FLUSH_BATHROOM",
+]
+"TestBed.CASA" = [
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M008",
+    "M009",
+    "M010",
+    "M011",
+    "M012",
+    # "M013", (no clear object)
+    "M014",
+    "M015",
+    "M016",
+    # "M017", (no clear object)
+    # "M018",  (no clear object)
+    # "M019",  (no clear object)
+    # "M020", (no clear object)
+    # "M021", (no clear object)
+    # "M022", (no clear object)
+    "M023",
+    # "M024",  (no clear object)
+    "M025",
+    "M026",
+    # "M027", (no clear object) 
+    "M028",
+    "M029",
+    # "M030", (no clear object)
+    "M031",
+    "D001",
+    "D002",
+    "D004",
+]
+"TestBed.CASM" = [
+    "M001",
+    # "M002", (no clear object)
+    "M005",
+    "M006",
+    "M007",
+    # "M010", (no clear object)
+    "M012",
+    "M013",
+    "M014",
+    # "M025", (no clear object)
+    # "M026", (no clear object)
+    # "M020", (no clear object)
+    "M028",
+    "D002",
+    "D001",
+    "D003",
+    "M003",
+    "M004",
+    "M008",
+    # "M009", (no clear object)
+    # "M011", (no clear object)
+    "M015",
+    # "M016", (no clear object)
+    "M017",
+    # "M018", (no clear object)
+    # "M019", (no clear object)
+    "M021",
+    "M022",
+    # "M023", (no clear object)
+    # "M024", (no clear object)
+    "M027",
+]
+
+
+[activity_renames]
+"RELAX" = "RELAX"
+"MEAL_PREPARATION" = "FOOD"
+"ENTER_HOME" = "ENTER_HOME"
+"LEAVE_HOME" = "LEAVE_HOME"
+"EATING" = "FOOD"
+"WORK" = "WORK"
+"WASH_DISHES" = "WORK"
+"HOUSEKEEPING" = "WORK"
+"RESPIRATE" = "OTHER"
+"KITCHEN_ACTIVITY" = "FOOD"
+"GUEST_BATHROOM" = "BATHE"
+"READ" = "RELAX"
+"MASTER_BATHROOM" = "BATHE"
+"MASTER_BEDROOM_ACTIVITY" = "OTHER"
+"WATCH_TV" = "RELAX"
+"SLEEPING" = "SLEEP"
+"DESK_ACTIVITY" = "WORK"
+"MORNING_MEDS" = "TAKE_MEDS"
+"CHORES" = "WORK"
+"DINING_RM_ACTIVITY" = "FOOD"
+"EVE_MEDS" = "TAKE_MEDS"
+"MEDITATE" = "OTHER"
+"SPARE_TIME" = "RELAX"
+"BREAKFAST" = "FOOD"
+"LUNCH" = "FOOD"
+"DINNER" = "FOOD"
+"SNACK" = "FOOD"
+"IDLE" = "OTHER"
+"SHOWERING" = "BATHE"
+"GROOMING" = "GROOM"
+"LEAVING" = "LEAVE_HOME"
+"TOILETING" = "GROOM"
+"BED_TO_TOILET" = "GROOM"
+"SLEEP" = "SLEEP"

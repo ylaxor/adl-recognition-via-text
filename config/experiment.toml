@@ -1,0 +1,52 @@
+nb_days = 14
+simplify_sensors = true
+simplify_activities = true
+rename_activities = true
+pad_trunc_length = 100
+n_splits = 3
+
+[tfidf_args]
+max_features = 20000
+ngram_range = [1, 2]
+
+[word2vec_args]
+model_name = "word2vec-google-news-300"
+use_tfidf = true
+idf_power = 1.0
+tfidf_params = { min_df = 1 }
+
+[sbert_args]
+model_name = "all-distilroberta-v1"
+
+[mlp_args]
+hidden_layer_sizes = [128]
+solver = "adam"
+learning_rate_init = 0.001
+max_iter = 1500
+warm_start = true
+batch_size = 32
+early_stopping = true
+n_iter_no_change = 15
+validation_fraction = 0.2
+random_state = 42
+
+[lstm_args]
+hidden_size = 64
+num_layers = 1
+bidirectional = true
+dropout = 0.0
+use_masking = true
+solver = "adam"
+learning_rate_init = 0.001
+max_epochs = -1
+batch_size = 32
+early_stopping = true
+n_iter_no_change = 15
+validation_fraction = 0.2
+random_state = 42
+
+[dts_args]
+attributes = ['top_k_sensors', 'top_k_rooms', 'time_of_occurrence', 'duration']
+
+[css_args]
+attributes = ['duration', 'unique_types', 'token_sequence', 'unique_rooms']
