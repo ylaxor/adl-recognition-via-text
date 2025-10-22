@@ -66,7 +66,7 @@ This will start a Streamlit application for:
 - Exploring activity data
 - Exploring sensor event data and metadata
 - Analyzing seven window textualization methods
-- Experimenting with vectorization methods (TF-IDF, Word2Vec, SBERT) and visualizing UMAP projections.
+- Experimenting with vectorization methods (TF-IDF, Word2Vec, SBERT) and visualizing UMAP projections
 
 ### 2. Run Experiment Mode
 
@@ -208,6 +208,11 @@ python main.py --mode explore
 python main.py --mode runxp
 ```
 
+or use the notebook to run custom experiments:
+```bash
+jupyter notebook scripts/xp_runner_usage_demo.ipynb
+```
+
 4. Analyze results:
 ```bash
 jupyter notebook scripts/paper_assets.ipynb
@@ -221,7 +226,7 @@ If you use this work in your research, please cite our paper:
 @article{flowar-textual2025,
   title={Revisiting Textual Representations for Domain-Robust Human Activity
 Recognition in Smart Homes},
-  author={Ncibi, Ali and Bouganim, Luc},
+  author={XXXXX},
   journal={Journal Name},
   year={2025},
   volume={XX},
@@ -232,8 +237,8 @@ Recognition in Smart Homes},
 
 Or in plain text:
 
-> Ncibi, A., & Bouganim, L. (2025). Revisiting Textual Representations for Domain-Robust Human Activity
-Recognition in Smart Homes. *Journal Name*, XX(X), XXX-XXX. https://doi.org/10.XXXX/XXXXX
+> XXXX, & XXXXX (2025). Revisiting Textual Representations for Domain-Robust Human Activity
+Recognition in Smart Homes. *Name*, XX(X), XXX-XXX. https://doi.org/10.XXXX/XXXXX
 
 ## License
 
