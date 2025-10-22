@@ -224,8 +224,7 @@ If you use this work in your research, please cite our paper:
 
 ```bibtex
 @article{flowar-textual2025,
-  title={Revisiting Textual Representations for Domain-Robust Human Activity
-Recognition in Smart Homes},
+  title={Towards Domain-Robust Activity Recognition using Textual Representations of Binary Sensor Events},
   author={XXXXX},
   journal={Journal Name},
   year={2025},
