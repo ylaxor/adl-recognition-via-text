@@ -234,11 +234,6 @@ If you use this work in your research, please cite our paper:
 }
 ```
 
-Or in plain text:
-
-> XXXX, & XXXXX (2025). Towards Domain-Robust Activity Recognition using Textual
-Representations of Binary Sensor Events. *Name*, XX(X), XXX-XXX. https://doi.org/10.XXXX/XXXXX
-
 ## License
 
 See LICENSE file for details.
