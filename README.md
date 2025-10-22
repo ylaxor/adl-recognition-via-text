@@ -1,4 +1,4 @@
-# Revisiting Textual Representations for Domain-Robust Human Activity Recognition in Smart Homes
+# Towards Domain-Robust Activity Recognition using Textual Representations of Binary Sensor Events
 
 Language-based representations have recently emerged as a promising approach for cross-domain Human Activity Recognition (HAR) in smart homes, where binary sensor streams are verbalized into natural-language descriptions processed by pretrained encoders. However, prior work has typically fixed both the textualization scheme and the embedding model, leaving open how linguistic design choices influence transferability.
 
@@ -237,8 +237,8 @@ Recognition in Smart Homes},
 
 Or in plain text:
 
-> XXXX, & XXXXX (2025). Revisiting Textual Representations for Domain-Robust Human Activity
-Recognition in Smart Homes. *Name*, XX(X), XXX-XXX. https://doi.org/10.XXXX/XXXXX
+> XXXX, & XXXXX (2025). Towards Domain-Robust Activity Recognition using Textual
+Representations of Binary Sensor Events. *Name*, XX(X), XXX-XXX. https://doi.org/10.XXXX/XXXXX
 
 ## License
 
